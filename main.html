@@ -53,18 +53,16 @@
       position: relative;
       width: 100%;
       height: 100%;
-      transform: translateY(-3px); /* account for the height of the clock hands */
+      transform: translateY(-1.5px); /* account for the height of the clock hands */
     }
 
     .hand {
       width: 50%;
-      height: 6px;
+      height: 3px;
       background: black;
       position: absolute;
       top: 50%;
-      transform-origin: 100%;
-      transform: rotate(90deg);
-      transition: all 0.05s;
+      transform-origin: 100% 50%;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
 </style>
